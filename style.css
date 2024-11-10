@@ -1,0 +1,170 @@
+/* Reset */
+* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a23;
+    color: #fff;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #131340;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Home Section */
+.home-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #0a0a23;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.home-text h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.home-text h2 {
+    color: #00aaff;
+    font-size: 1.5em;
+}
+
+.home-text p {
+    margin: 20px 0;
+    max-width: 500px;
+}
+
+.home-text .btn {
+    padding: 10px 20px;
+    background-color: #00aaff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.social-links a {
+    color: #00aaff;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 20px;
+    background-color: black
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 60px 20px;
+    background-color: black;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section input, .contact-section textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    padding: 10px 20px;
+    background-color: #00aaff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+html {
+
+    scroll-behavior: smooth;
+}
+
+/* Additional styling for each section */
+section {
+    padding: 60px 20px;
+    min-height: 100vh;
+}
+
+.home-section {
+    background-color: black;
+}
+
+.about-section {
+    background-color: black;
+    text-align: center;
+}
+
+.contact-section {
+    background-color: black;
+    text-align: center;
+}
+.home-image {
+    display: flex; /* Use flexbox for easy alignment */
+    align-items: center; /* Center align items vertically */
+    justify-content: flex-start; /* Align items to the left */
+    margin: 0px; /* Adds some space around the image */
+}
+
+.home-image img {
+    width: 500px; /* Set a specific width for the image */
+    height: 500px; /* Set a specific height for the image */
+    border-radius: 100%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for depth */
+}
